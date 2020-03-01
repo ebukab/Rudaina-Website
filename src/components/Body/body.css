@@ -1,0 +1,110 @@
+@media only screen and (max-width: 1026px) {
+    .donateIcon img{
+        height: 7rem;
+        width: 7rem;
+        padding: 15px;
+    }
+    .swingingAnimateion{
+        top: 50vw;
+        right: .1%;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .donateIcon img{
+        height: 10rem;
+        width: 10rem;
+        padding: 10px;
+        color: white;
+    }
+    .swingingAnimateion{
+        top: 30%;
+        right: 1%;
+    }
+    .donateIcon img:hover{
+        background-color: #cc0035;
+    }
+}
+
+.mobileLinks{
+    color: black;
+}
+
+.body{
+    position: relative;
+}
+
+.donateIcon img{
+    margin: 0;
+    color: white;
+    background-color: #ff0043;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    transition: all .25s ease-in;
+}
+
+.donateIcon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.swingingAnimateion{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    z-index: 30;
+}
+
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(10deg);}
+}
+
+@keyframes swinging{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+}
+
+.swingimage{
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
+
+.hanger{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: transparent;
+}
+
+.bLeft{
+    border-left: 2px solid #ff0043;
+}
+
+.bRight{
+    border-right: 2px solid #ff0043;
+}
+
+.mobileDropdown{
+    background-color: #ff0043;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    padding: 0 1rem;
+    font-family: 'Special Elite', cursive;
+}
+
+.mobileDropdown i{
+    font-size: 2rem;
+    padding: 1rem;
+}

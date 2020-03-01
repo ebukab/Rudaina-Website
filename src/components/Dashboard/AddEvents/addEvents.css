@@ -1,0 +1,101 @@
+@media only screen and (max-width: 1026px) {
+    .eventView{
+        padding: .1rem;
+        width: 90vw;
+    }
+    .chosenEventTitle{
+        font-family: 'Rancho', cursive;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .eventDatas{
+        padding: 1.5rem;
+        width: 75rem;
+    }
+    .eventView{
+        padding: .1rem;
+        width: 35vw;
+    }
+}
+
+.attendeesList{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    border-bottom: 1px solid red;
+    widows: 100%;
+}
+
+.eventsContainer{
+    display: grid;
+    grid-template-columns: 95% 5%;
+    border-bottom: 1px solid black;
+    padding-top: 3px;
+}
+
+
+.addEventTitle{
+    font-family: 'Rancho', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+    display: block;
+}
+
+.eventDates{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width: 80%;
+}
+
+.eventsContainer_trash{
+    background-color: #ff0043;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventStyle{
+    color: #ff0043;
+    font-family: 'Rancho', cursive;
+    font-weight: bold;
+}
+
+.eventsContainer_contentDates{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.eventsContainer_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.eventDatas input , .eventDatas textarea , .eventDatas select{
+    border: 1px solid grey;
+}
+
+.eventDatas p {
+    color: #ff0043;
+    font-family: 'Rancho', cursive;
+    font-weight: bold;
+}
+
+.eventDatas .eventTitle ,.eventDatas .eventDesc{
+    width : 80%;
+}
+
+.eventSubmit{
+    background-color: #ff0043;
+    border: 1px solid white;
+    color: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 20%;
+}

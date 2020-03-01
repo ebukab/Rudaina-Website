@@ -1,0 +1,217 @@
+.messageChatContainer{
+    height : 80vh;
+    display : flex;
+    flex-direction : column;
+    justify-content : flex-end;
+    padding : 1rem;
+}
+
+.messageChatForm{
+    width : 100%;
+    height : 6%;
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+}
+
+.messageChatFormUpload{ 
+    width : 10%;
+    height : 100%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    cursor : not-allowed;
+}
+
+.messageChatFormUpload > input
+{
+    display: none;
+}
+
+.messageChatFormUpload i
+{
+    font-size : 3rem;
+    cursor: not-allowed;
+    color : #ff0043;
+}
+
+.messageChatFormUpload input
+{
+    cursor: not-allowed;
+}
+
+.messageChatSendButton{
+    background-color : #ff0043;
+    color : white;
+    width : 10%;
+    height : 100%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.messageChatSendButton:hover{
+    opacity : .7;
+    cursor : pointer;
+}
+
+.messageChatSendButton p{
+    margin : auto;
+    text-align:center; 
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.messageTextInput{
+    width : 78%;
+    height : 100%;
+    border : 1px solid #ff0043;
+    display : flex;
+    padding : 0 0 0 1rem;
+    align-items : center;
+}
+
+.messageChatReplyToContainer{
+    padding-left : 11%;
+    height : 5%;
+}
+
+.messageChatReplyToTitle{
+    color : #ff0043;
+    font-weight : bold;
+}
+
+.messageChatReplyToCancel{
+    background-color : #ff0043;
+    color : white;
+    margin : auto 2rem;
+    padding : 0 .5rem;
+}
+
+.messageChatReplyToCancel:hover{
+    opacity : .8;
+    cursor : pointer;
+}
+
+.messageArea{
+    overflow:scroll;
+}
+
+.message{
+    width : 70%;
+    margin : 1.5rem 0;
+    border-radius : .5rem;
+    padding : .1rem 1rem;
+}
+
+.myMessage{
+    width : 70%;
+    margin : 1.5rem 0;
+    border-radius : .5rem;
+    padding : .1rem 1rem;
+    margin-left : 30%;
+    background-color : #ffe5ec;
+    /* clip-path: polygon(99% 0, 100% 50%, 100% 50%, 99% 100%, 0 100%, 0 0); */
+}
+
+.mySpecialMessage{
+    width : 70%;
+    margin : 1.5rem 0;
+    border-radius : .5rem;
+    padding : .1rem 1rem;
+    margin-left : 30%;
+    background-color : #194AA4;
+    color : white;
+    /* clip-path: polygon(99% 0, 100% 50%, 100% 50%, 99% 100%, 0 100%, 0 0); */
+}
+
+.otherMessage{
+    width : 70%;
+    margin : 1.5rem 0;
+    border-radius : .5rem;
+    padding : .1rem 1rem;
+    /* clip-path: polygon(1% 0, 100% 0, 100% 100%, 1% 100%, 0 50%, 0 50%); */
+}
+
+.otherSpecialMessage{
+    width : 70%;
+    margin : 1.5rem 0;
+    border-radius : .5rem;
+    padding : .1rem 1rem;
+    background-color : #194AA4;
+    color : white;
+    /* clip-path: polygon(1% 0, 100% 0, 100% 100%, 1% 100%, 0 50%, 0 50%); */
+}
+
+.otherMessage{
+    background-color : #E5E5E5;
+}
+
+.special{
+    background-color : #ffe5ec;
+    color : white
+}
+
+.messageName{
+    color : #ff0043;
+    font-weight : bold;
+}
+
+.messageDate{
+    font-size : 1.3rem;
+}
+
+.replyMessage{
+    background-color : white;
+    margin-top : 1rem;
+    padding : .5rem;
+    color : black;
+}
+
+.messageIcons{
+    display : flex;
+    flex-direction : row;
+}
+
+.messageIcons i{
+    color : #ff0043;
+    margin : 0 1rem;
+    cursor : pointer;
+}
+
+.messageBoxFooter{
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+}
+
+.reportModalBox{
+    width : 25vw;
+    background-color : #ccc;
+    padding : 1rem;
+    border-radius : 5px;
+    font-size : 1.6rem;
+}
+
+.reportModalButtonsBox{
+    width : 100%;
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+}
+
+.reportModalButtonsBox p{
+    padding : 1rem;
+    border-radius : 5px;
+    color : white;
+    cursor : pointer;
+}
+
+.cancelReport{
+    background-color : red;
+}
+
+.continueReport{
+    background-color : green;
+}
+

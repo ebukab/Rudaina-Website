@@ -1,0 +1,13 @@
+.reportBox{
+    width : 90%;
+    background-color : #ccc;
+    border : 1px solid black;
+    margin : 1rem auto;
+    padding : 1rem;
+}
+
+.reportBoxHeader{
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+}

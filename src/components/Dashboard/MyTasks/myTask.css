@@ -1,0 +1,147 @@
+@media only screen and (max-width: 1026px) {
+    .eventTitle{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .eventDesc{
+        font-size: 1.6rem;
+    }
+    .eventDates {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .eventTitle{
+        font-size: 2rem;
+    }
+    .eventDesc{
+        font-size: 1.7rem;
+    }
+    .eventDates {
+        font-size: 2rem;
+    }
+    .eventContainer{
+        width: 95%;
+    }
+}
+
+.eventBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.eventMainContainer{
+    height: 760px;
+    overflow:scroll;
+}
+
+.eventContainer{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    border: 1px solid black;
+    background-color : white;
+    margin: 2rem 0;
+    transition: all .2s ease-in; 
+}
+
+.eventContainer:hover{
+    box-shadow : 0 0 6px grey;
+}
+
+.removeEvent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: red;
+    background-color: #d9d9d9;
+    transition: all .25s ease-in;
+}
+.removeEvent:hover {
+    background-color: red;
+    color: white;
+}
+.removeEventText{
+    font-size: 2rem;
+}
+
+.removeEvent i{
+    font-size: 6rem;
+}
+
+.eventTitle{
+    color: #FF0043;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.eventInfo{
+    border-right: 1px solid black;
+    padding: 0 10px;
+}
+
+.removeEvent p{
+    margin: 0;
+    padding: 0;
+}
+
+.colorRed{
+    color: red;
+    font-weight: bold;
+}
+
+.eventDates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eventDates p{
+    margin: 0;
+    padding: 0;
+
+}
+
+.noEvents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    font-size: 2rem;
+}
+
+.noEventtext{
+    color: #FF0043;
+    font-weight : bold; 
+}
+
+.noEvents p{
+    margin: 0;
+    /* -webkit-box-shadow: 0 0 20px grey;
+        box-shadow: 0 0 20px grey; */
+}
+
+.noEvents .noEventLarge{
+    font-size: 10rem;
+    padding: 0px 0px;
+    margin: 0;
+    color: red;
+
+}
+
+.noEvents i{
+    font-size: 6rem;
+    color: #FF0043;
+    background-color: transparent;
+    /* -webkit-box-shadow: 0 0 20px red;
+        box-shadow: 0 0 20px red; */
+}

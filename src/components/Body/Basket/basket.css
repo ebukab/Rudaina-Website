@@ -1,0 +1,74 @@
+@media only screen and (max-width: 1026px) {
+    .basketSectionContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .basket-section-image{
+        width: 95vw;
+        height : 30rem;
+    }
+    .basket-section-image img{
+        width: 95vw;
+        /* height : 100%; */
+        height : 100%;
+    }
+    .basketImageBox{
+        width : 95vw;
+        margin : auto auto 3rem auto;
+    }
+    .basketTextBox{
+        padding : 1rem;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .basketSectionContainer{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        margin: auto;
+        width : 80%;
+    }
+
+    .basketTextBox{
+        margin : 0 auto;
+        width: 85%;
+    }
+    .basket-section-image{
+        width: 100%;
+        height : 50rem;
+    }
+    .basket-section-image img{
+        width: 100%;
+        /* height : 100%; */
+        height : 100%;
+    }
+    .basketImageBox{
+    }
+}
+
+.bulletPoint{
+    color : red;
+}
+
+.basketImageBox{
+    border : 3px solid #FF0043;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.basketSection{
+    /* background-color : purple; */
+    padding : 8rem 0;
+}
+
+.basketTextBoxHeader{
+    font-family: 'Special Elite', cursive;
+    /* color : #FF0043; */
+    color : black;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+
+

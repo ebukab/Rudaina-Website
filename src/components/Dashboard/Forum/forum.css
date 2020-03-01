@@ -1,0 +1,244 @@
+@media only screen and (max-width: 1026px) {
+    .forumContainer{
+        height: 100%;
+    }
+    .chatArea{
+        height: 88%;
+    }
+    .messageFormContainer{
+        height: 12%;
+    }
+    .messageForm{
+        height: 70%;
+    }
+    .messageInput{
+        font-size: 1.6rem;
+        padding: 0 20px;
+    }
+    .messageButton{
+        font-size: 2rem;
+    }
+    .replyTo{
+        transform: translateY(.7rem);
+    }
+    .messageBottom{
+        font-size: 1.2rem;
+    }
+    .message{
+        font-size: 1.6rem;
+    }
+    .myMessage{
+        font-size: 1.6rem;
+    }
+    .myMessageSpecial{
+        font-size: 1.6rem;
+    }
+    .messageSpecial{
+        font-size: 1.6rem;
+    }
+    .message{
+        padding: 5px;
+    }
+    .messageSpecial{
+        padding: 5px;
+    }
+    .myMessage{
+        padding: 5px;
+    }
+    .myMessageSpecial{
+        padding: 5px; 
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .chatArea{
+        height: 700px;
+    }
+    .messageInput{
+        height: 50px;
+        font-size: 3rem;
+        padding: 0 20px;
+    }
+    .messageButton{
+        height: 50px;
+        font-size: 3rem;
+    }
+    .messageBottom{
+        font-size: 1.6rem;
+    }
+    .message{
+        font-size: 2.2rem;
+    }
+    .myMessage{
+        font-size: 2.2rem;
+    }
+    .myMessageSpecial{
+        font-size: 2.2rem;
+    }
+    .messageSpecial{
+        font-size: 2.2rem;
+    }
+    .message{
+        padding: 10px;
+    }
+    .messageSpecial{
+        padding: 10px;
+    }
+    .myMessage{
+        padding: 10px;
+    }
+    .myMessageSpecial{
+        padding: 10px; 
+    }
+    .messageFormContainer{
+        height: 50%;
+    }
+}
+
+.message{
+    color: black;
+    background-color: #E5E5E5;
+    width: 70%;
+    margin: 15px;
+    /* border: 1px solid red; */
+    border-radius: 25px 25px 25px 0;
+    -webkit-border-radius: 15px 25px 25px 0;
+    -moz-border-radius: 15px 25px 25px 0;
+    -ms-border-radius: 15px 25px 25px 0;
+    -o-border-radius: 15px 25px 25px 0;
+}
+
+
+.messageSpecial{
+    color: black;
+    background-color: #FFE5E4;
+    width: 70%;
+    margin: 15px;
+    border-radius: 25px 25px 25px 0;
+    -webkit-border-radius: 15px 25px 25px 0;
+    -moz-border-radius: 15px 25px 25px 0;
+    -ms-border-radius: 15px 25px 25px 0;
+    -o-border-radius: 15px 25px 25px 0;
+}
+
+.messageBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.sender{
+    color: red;
+    font-weight: bold;
+    
+}
+
+.messageForm{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-gap: 10px;
+    width: 100%;
+}
+
+.messageButton{
+    border: red 2px solid;
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: red;
+}
+
+.messageButton:hover{
+    cursor: pointer;
+}
+
+.chatArea{
+    overflow:scroll;
+    background-color: pink;
+}
+
+.messageInput{
+    border: red 2px solid;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.replyToText i{
+    color: red;
+}
+
+.messageFormContainer{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: blue;
+}
+
+.myMessage{
+    float: right;
+    color: black;
+    background-color:#E5E5E5;
+    width: 70%;
+    margin: 15px;
+    /* border: 1px solid red; */
+    border-radius: 25px 25px 0 25px;
+}
+
+.myMessageSpecial{
+    float: right;
+    color: black;
+    background-color: #FFE5E4;
+    width: 70%;
+    margin: 15px;
+    border-width: 5px;
+    /* box-shadow: 0 0 20px #ff0043; */
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;   
+}
+
+.messageContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.forumContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+}
+
+
+
+.replyToText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.replyText{
+    background-color: #FFf;
+    border-bottom: 1px solid purple;
+    margin-top: 6px;
+    border-radius: 5px;
+    padding: 0 3px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.replyingToText{
+    color: red;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.replyTo p{
+    padding-right: 3px;
+}

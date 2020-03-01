@@ -1,0 +1,150 @@
+@media only screen and (max-width: 1026px) {
+    .loginText{
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+    .login-form_footer{
+        flex-direction: column;
+    }
+    .loginForm{
+        font-size: 1.6rem;
+        margin: .5rem auto;
+        width: 85vw;
+    }
+    .loginFormContainer{
+        padding: .5rem;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .loginText{
+        font-size: 3rem;
+    }
+    .login-form_footer{
+        flex-direction: row;
+    }
+    .loginForm{
+        font-size: 2rem;
+        width : 80%;
+        height : 80%;
+        margin : auto;
+    }
+    .loginFormContainer{
+        width : 35vw;
+        min-height : 60vh;
+    }
+    .headerLoginText{
+        font-size : 3.5rem;
+    }
+    .loginFormButton{
+        height : 5rem;
+        font-size : 2.3rem;
+    }
+}
+
+.form{
+    color: #ff0043;
+}
+
+.headerLoginText{
+    color: #ff0043;
+    font-weight : bold;
+    background-color : white;
+    text-align : center;
+    width : 80%;
+    margin : auto;
+    transform : translateY(-50%);
+}
+
+.loginText{
+    color: #f00;
+    cursor : pointer;
+}
+
+.loginText:hover{
+    color: red;
+    font-weight : bold;
+}
+
+.form input, .form input:focus, .form input:active{
+    width: 100%;
+    background-color : #fff9fb;
+    border : 1px solid black;
+    border-radius : 3px;
+    height : 4rem;
+}
+
+.loginFormButton{
+    width: 100%;
+    background-color : #ff0043;
+    margin-bottom: 1rem;
+    border: 2px solid #f00;
+    transition: all .2s ease-in-out;
+    color: white;
+}
+
+.loginFormButton:hover{
+    margin-bottom: 1rem;
+    opacity : .7;
+    cursor : pointer;
+}
+
+.btnHover:hover{
+    color: white;
+}
+
+.loginForm a{
+    color: #000;
+    transition: all .2s ease-in-out;
+}
+
+.loginForm a:hover ,.loginForm a:active {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-form_footer{
+    padding: 0 1rem;
+    color : #ff0043;
+    font-weight : bold; 
+}
+
+.login-form_footer p:hover{
+    display:inline-block;
+}
+
+.login-form_footer p:hover{
+    cursor : pointer;
+    opacity : .7;
+}
+
+
+.signUp {
+    font-weight: bold;
+    color: #ff1919;
+}
+
+.loginForm{
+    border : 2px solid #ff0043;
+    padding : 0 2rem;
+}
+
+.loginFormContainer{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.loginFormItem{
+    margin-bottom : 2rem;
+}
+
+.loginFormItem p{
+}
+
+.resetError{
+    color : red;
+    font-size : 1.5rem;
+    text-align : center;
+    font-weight : bold;
+}

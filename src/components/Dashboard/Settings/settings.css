@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1026px) {
+    .settings{
+        height: 100%;
+        padding: 1rem;
+    }
+    .updateInput{
+        width: 100%;
+    }
+    .settingItem textarea{
+        width: 100%;
+    }
+    .updateText{
+        font-size: 1.8rem;
+    }
+    .updateBtn{
+        font-size: 2rem;
+        padding: .1px;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .settings{
+        height: 760px;
+        padding: 30px;
+    }
+    .updateInput{
+        width: 80%;
+    }
+    .settingItem textarea{
+        width: 80%;
+    }
+    .updateText{
+        font-size: 2rem;
+    }
+    .updateBtn{
+        font-size: 2.5rem;
+        padding: 1px;
+    }
+}
+
+.settings{
+    width: 100%;
+    overflow:scroll;
+}
+
+.updateInput{
+    border: 1px solid #000;
+    background-color: #E8ECEF;
+    display: flex;
+    flex-direction: column;
+    padding-left : 5px;
+}
+
+.updateText{
+    /* border-bottom: 2px solid black; */
+    color: #FF0043;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+.settingItem textarea{
+    border: 1px solid #000;
+    background-color: #E8ECEF;
+    padding-left : 5px;
+}
+
+.updateBtn{
+    width: 25%;
+    background-color: #E8ECEF;
+    border: 2px red solid;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .25s ease-in;
+    margin : 2rem 0;
+}
+
+.updateBtn:hover{
+    background-color: red;
+    color: white;
+    border: 2px #E8ECEF solid;
+}
+
+.passpordErrorText{
+    color : #ff0043;
+}
+

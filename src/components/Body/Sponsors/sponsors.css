@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1026px) {
+    .imgContainer{
+        width: 100vw;
+        padding: 1rem 0;
+    }
+    .imgItem{
+        width: 30%;
+        height: 8rem;
+        border-radius: .6rem;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .imgContainer{
+        width: 80%;
+    }
+    .imgItem{
+        width: 18%;
+        height: 15rem;
+        border-radius: 1.9rem;
+    }
+}
+
+.sponsorContainer{
+    
+    text-align: center;
+    padding-bottom: 6rem;
+}
+
+.imgContainer{
+    display: flex;flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.imgContainer img{
+    width: 95%;
+    max-height: 95%;
+    display: block;
+    margin: auto;
+}
+
+.imgItem{
+    border: 1px solid #FF92A2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.spnsorTitle{
+    color: white;
+    float: right;
+}

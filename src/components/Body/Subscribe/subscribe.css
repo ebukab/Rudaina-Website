@@ -1,0 +1,107 @@
+
+
+.privacyStatement{
+    color: grey;
+    font-style: italic;
+}
+
+
+.footerLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2.0rem;
+}
+
+.footerLinks ul li {
+    float: left;
+    padding: 0 10px;
+    list-style: none;
+    list-style-type: none;
+}
+
+.footerLinks a {
+    color: black;
+}
+
+.footerLinks a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.subscribe-section i{
+    font-size: 45px;
+    padding-right: 5px;
+    color: red;
+}
+
+.contactUsItem{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+.contactUsItem a{
+    color: black;
+}
+
+.contactUsItem a:hover{
+    text-decoration: none;
+}
+
+.contactUs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialLinks .fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.socialLinks a:hover {
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+    color: white;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter-square {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+    
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.Subscribefooter{
+    border-top: 5px solid grey;
+}

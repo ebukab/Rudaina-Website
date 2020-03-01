@@ -1,0 +1,225 @@
+@media only screen and (max-width: 1026px) {
+    .profileContainer{
+        grid-template-columns: 1fr;
+        height: 100%;
+        overflow : scroll;
+    }
+    .dataItemContainer i{
+        font-size: 2rem;
+        padding-right:  5px;
+    }
+    .profileDataMobileView{
+        display : flex;
+        flex-direction : row;
+        align-items : center;
+    }
+    .profileData{
+        width : 100vw;
+        display : grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobilePic {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+    .mobilePic img{
+        width : 45vw;
+        height: 45vw;
+        border-radius: 200rem;
+        border: red solid 3px;
+        padding: .3rem;
+        -webkit-box-shadow: 0 0 40px black;
+            box-shadow: 0 0 40px black;
+    }
+    .dataItem{
+        font-size: 1.5rem;
+    }
+    .profileBio{
+        font-size: 1.6rem;
+        padding: 1px;
+        font-family: 'Rancho', cursive;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .profileContainer{
+        grid-template-columns: 1fr 1.5fr;
+        height: 750px;
+        overflow : scroll;
+    }
+    .dataItemContainer i{
+        font-size: 3rem;
+        padding-right:  10px;
+    }
+    .dataItem{
+        font-size: 2rem;
+    }
+    .profileBio{
+        font-size: 2rem;
+        padding: 5px;
+    }
+    .profileDataItem{
+        margin-bottom : 1rem;
+    }
+}
+
+.profileImageName{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-right: grey 2px solid;
+}
+
+.profileImageName img{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 4px solid #ff0043;
+    padding: .5rem;
+    
+}
+
+.profileImage p{
+    background-color: green;
+    padding: 1px;
+    margin: 0px;
+}
+
+.userName{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.profileContainer{
+    display: grid;
+    overflow : scroll;
+}
+
+.profileInfo{
+    height: 100%;
+}
+
+.profileData{
+    padding: 5px;
+}
+
+.profileBio{
+}
+
+.profileBioTtile{
+    display: inline-block;
+    border-bottom: 3px solid #ff0043;
+    font-size: 1.7rem;
+    font-weight: bold;
+    word-spacing: .5rem;
+}
+
+.profileBioText{
+}
+
+.pending{
+    color: #ff0043;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.dataItemContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .3rem 0;
+}
+
+.dataItemContainer p{
+    padding: 0px;
+}
+
+.dataItemContainer i{
+    color: #ff0043;
+}
+
+.advisorContact p a , .advisorContact p {
+    font-size: 2rem;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.advisorContactContainer{
+    margin-top: 30px;
+}
+
+.advisorContact a:hover{
+    color: #ff0043;
+    font-weight: bold;
+}
+
+.agreeButton{
+    border: 2px solid red;
+    font-size: 2rem;
+    width: 30%;
+    padding : .2rem;
+    border-radius : 3px;
+    text-align: center;
+    margin : 2rem auto;
+    font-size: 2.2rem;
+    background-color: #ff0043;
+    color: white;
+    transition: .2s ease-in;
+}
+
+
+.agreeButton:hover{
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+}
+
+.userAgreement{
+    padding: 2rem;
+    font-size: 1.7rem;
+    margin: 1.5rem 1.5rem 4rem 1.5rem ;
+    box-shadow: 0px 0px 10px grey;
+    background-color: #f9f9f9;
+}
+
+.userAgreement span{
+    color: #ff0043;
+    font-weight: bold;
+    padding-right: 1rem;
+    font-size: 2rem;
+}
+
+.userAgreement p{
+    margin: 1rem 0;
+}
+
+.userAgreement h3{
+    font-weight: bold;
+    line-height: 2.5rem;
+    margin : 2rem 0;
+}
+
+.agreementText{
+    display: flex;
+}
+
+.agreementTitle{
+    color: #ff0043;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.profileAgreementContainer{
+    height: 750px;
+    overflow: scroll;
+}

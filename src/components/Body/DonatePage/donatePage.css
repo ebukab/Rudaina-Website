@@ -1,0 +1,77 @@
+.donatePageContainer{
+    min-height: 60vh;
+    background-color: #ffb2c6;
+    padding: 0rem 0;
+    max-height: 100vh;
+    overflow: scroll;
+}
+
+.donatePage{
+    width : 80%;
+    margin : auto;
+}
+
+.donatePageInstructions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Rancho', cursive;
+    color: #ff0043;
+    background-color: white;
+}
+
+.arrow{
+    animation: grow 1.5s ease infinite;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.waitText{
+    animation: FadeAnimation 3s  ;
+}
+
+@-webkit-keyframes grow
+{
+    20%
+    {
+        color: yellow;
+    }
+    40%
+    {
+        color: magenta;
+    } 
+    60%
+    {
+        color: blue;
+    }
+    80%
+    {
+        color: green;
+    }
+    100%
+    {
+        color: #ff0043;
+    }
+}
+
+@keyframes FadeAnimation {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        display : none;
+    }
+
+    5% {
+        opacity: 1;
+        visibility: visible;
+        display : inline-block;
+    }
+  
+    100% {
+      opacity: 0;
+      visibility: hidden;
+      display : none;
+    }
+  }

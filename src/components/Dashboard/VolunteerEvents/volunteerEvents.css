@@ -1,0 +1,37 @@
+@media only screen and (max-width: 1026px) {
+    .chosenEventTitle{
+        font-size: 1.8rem;
+        font-weight : bold;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .chosenEventTitle{
+        font-size: 2rem;
+    }
+    .chosenEvent{
+        border : 1px solid #ff0043;
+        width : 40vw;
+        padding : 0 2rem;
+    }
+}
+
+.calendarContainer{
+    height: 70vh;
+}
+
+.eventView{
+    width: 50%;
+}
+
+.chosenEventButton{
+    margin : 2rem 0;
+}
+
+.chosenEventTitle{
+    display: inline-block;
+    text-transform: uppercase;
+    background-color : white;
+    padding : 1rem;
+    border-bottom : 2px solid #ff0043;
+}

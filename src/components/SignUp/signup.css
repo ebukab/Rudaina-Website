@@ -1,0 +1,139 @@
+@media only screen and (max-width: 1026px) {
+
+}
+
+@media only screen and (min-width: 1026px) {
+    .authTextTitle{
+        font-size : 3rem;
+    }
+}
+
+.signUpContainer{
+    width: 100%;
+    margin: 5% auto;
+    border : 4px solid #ff0043;
+    padding: 0 2rem;
+}
+
+.authTextTitle{
+    background-color : white;
+    text-align : center;
+    font-weight : bold;
+    width : 70%;
+    margin : auto;
+    transform : translateY(-50%);
+    color : #ff0043;
+}
+
+.optionContainer{
+    /* border-bottom: 1px solid #000;
+    border-top: 1px solid #000; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+}
+
+.optionContainer img{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    padding: 3px;
+}
+
+.optionContainer img:hover{
+    border: 3px solid red;
+    transition: all .2s ease-in-out;
+}
+
+.option{
+    text-align: center;
+    margin: 10px 8.4rem;
+}
+
+.option p{
+    font-size: 2.3rem;
+}
+
+.option_form {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 2rem;
+}
+
+.option_form input{
+    width: 1fr;
+}
+
+.option_form_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.two{
+    background-color: black;
+}
+
+.sign-up_button button{
+    width: 40%;
+    margin: 1rem 0;
+    border: 2px solid #f00;
+    background-color : #ff0043;
+    transition: all .2s ease-in-out;
+    padding : 2px;
+    color : white;
+}
+
+.sign-up_button button:hover{
+    box-shadow : 0 0 1rem grey;
+    cursor : pointer;
+    transition: all .2s ease-in-out;
+}
+
+.active{
+    border: 3px solid red;
+}
+
+.inActive{
+    border: 3px solid transparent;
+}
+
+.terms {
+    font-size: 1.5rem;
+
+    font-style: italic;
+}
+
+.more-info_grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.more-info_frid_option{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-size : 1.7rem;
+    background-color : #fff4f7;
+    margin : .5rem 0;
+    
+}
+
+.more-info_frid_option select{
+    border : 1px solid #ffc1d2;
+    background-color : #fff4f7;
+    
+}
+
+.more-info_frid_option textarea{
+    border : 1px solid #ffa8bf;
+    background-color : #fff4f7;
+    
+}
+
+.align{
+    width: 100%;
+}

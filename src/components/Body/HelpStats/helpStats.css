@@ -1,0 +1,37 @@
+.itemContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.textContainer{
+    width: 100%;
+    text-align: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemContainer i{
+    font-size: 10rem;
+    color: red;
+}
+
+.itemContainer p{
+    font-size: 2.5rem;
+}
+
+.itemContainer .counter{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.helpStatText{
+    color: red;
+}

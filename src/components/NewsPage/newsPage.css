@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1026px) {
+    .newsPage{
+        width: 96%;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .newsPage{
+        width: 80%;
+        min-height : 50vh;
+    }
+}
+
+.newsPageContainer{
+    width: 100vw;
+}
+
+.newsPage{
+    margin: auto;
+}
+
+.newsPage .newsItem{
+    width: 40rem;
+}
+
+.newsPageItem{
+    margin: 2rem 0;
+}
+
+.newsPageItem_title{
+    font-size: 3rem;
+    font-family: 'Rancho', cursive;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    font-weight: bold;
+    color: #ff0043;
+}
+
+.carousel{
+    background-color: #f0f0f1;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-start; */
+}
+
+.carousel .slide {
+    background: transparent; 
+
+}

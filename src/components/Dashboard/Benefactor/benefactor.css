@@ -1,0 +1,133 @@
+.clickToView{
+    border-bottom: 2px solid red;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.scrollView{
+    overflow: scroll;
+    height: 760px;
+}
+
+.userInfoDisplayActive{
+    display: grid;
+    grid-template-columns: 2% 28% 50% 20%;
+    align-items: center;
+    font-size: 2rem;
+    border-bottom: 1px red solid;
+    cursor: pointer; 
+    transition: all .25s ease-in;
+    padding: 0 5px;
+    background-color: #f2f2f2;
+    -webkit-box-shadow: 0 0 12px grey;
+        box-shadow: 0 0 12px grey;
+}
+
+.userInfoDisplay{
+    display: grid;
+    grid-template-columns: 2% 28% 50% 20%;
+    align-items: center;
+    font-size: 2rem;
+    border-bottom: 1px red solid;
+    cursor: pointer; 
+    transition: all .25s ease-in;
+    padding: 0 5px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: red;
+}
+
+.info{
+    color: #ff0043;
+    font-weight: bold;
+    font-family: 'Rancho', cursive;
+    border-bottom: 1px solid grey;
+}
+
+.infoItem{
+    font-size: 2.3rem;
+}
+
+.infoView{
+    font-size: 2rem;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    padding: 20px 10px;
+    height: 50vh;
+    width: 75rem;
+    overflow: scroll;
+    background-color: #f2f2f2;
+}
+
+.userStatus{
+    display: flex;
+}
+
+.userStatus p{
+    border: 1px solid red;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.userStatus_pending{
+    background-color: #e5e5e5;
+}
+
+.userStatus_approved{
+    background-color: #cce5cc;
+}
+
+.approved{
+    background-color: green;
+    color: white;
+}
+
+.pendingg{
+    background-color: grey;
+    color: white;
+}
+
+.pending:hover , .approved:hover , .disapproved:hover , .userStatus_approved:hover , .userStatus_pending:hover ,.userStatus_disapproved:hover  {
+    font-weight: bold;
+}
+
+
+.disapproved{
+    background-color: red;
+    color: white;
+}
+
+.details{
+    color: #ff0043;
+    font-family: 'Rancho', cursive;
+    display: inline-block;
+}
+
+.details:hover{
+    font-weight: bold;
+}
+
+.userStatus_disapproved{
+    background-color: #ffcccc;
+}
+
+.statusBtn{
+    width: 20rem;
+    font-size: 2rem;
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+}
+
+.longText{
+    grid-column: 1 / span 2;
+}
+
+.userInfoDisplay:hover{
+    /* background-color: red; */
+    /* color: white; */
+    -webkit-box-shadow: 0 0 12px grey;
+        box-shadow: 0 0 12px grey;
+}

@@ -1,0 +1,50 @@
+.teamContainer{
+    width : 100%;
+    display : grid;
+    grid-template-columns : 1fr 1fr;
+    grid-gap : 4rem;
+    height : 80vh;
+    overflow : scroll;
+}
+
+.teamMember{
+    height: 40rem;
+    width : 40rem;
+    text-align: center;
+}
+
+.teamMemberImage{
+    height : 50%;
+    display : flex;
+    flex-direction:row;
+    align-items: center;
+    overflow : hidden;
+}
+
+.teamMemberImageBox{
+    height : 18rem;
+    width : 18rem;
+    margin : auto;
+    border-radius : 1000rem;
+    overflow : hidden;
+}
+
+.teamMemberImage img{
+    height : 100%;
+    width : 100%;
+}
+
+.teamMemberDetail{
+    height : 20%;
+    /* transform : translateY(-50%); */
+}
+
+.teamMemberName{
+    font-size: 2rem;
+    text-transform : uppercase;
+    color : #FF0043;
+}
+
+.teamMemberBio{
+    padding : 0 1rem;
+}
